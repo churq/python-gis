@@ -1,0 +1,9 @@
+fiona is api to GDAL
+fiona doesn't work with GDAL200.dll, it only works with lower vision
+if installing fiona from conda installation, fiona is linked to GDAL*.dll which is located in c:/Anaconda2/Library/bin as libgdal is downloaded together with fiona and tells fiona 
+where dll resides
+
+if download fiona.whl(compiled files) and install alone,fiona looks for gdal*.dll in GDDAL installation directorY[c:\Program Files\GDAL\]
+
+no matter what, fiona looks for 1.11.3 version gdal library(dll), doesn't matter where it is located, as long as fiona can find it.
+not 100% sure how fiona hooks up with gdal**.dll, maybe through os.path? maybe gdal python binding tells fiona when they are installed ??????
