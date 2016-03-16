@@ -1,2 +1,2 @@
-when you import python packages, Python searches the directories on PYTHONPATH until it finds a file called "packagename.py" or a directory 
+when you import python packages, Python searches the directories on sys.path until it finds a file called "packagename.py" or a directory 
 called "packagename" containing a file called __init__.py
