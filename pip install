@@ -1,1 +1,2 @@
-pip install with no SSL verification
+pip install with no SSL verification:
+pip install --index-url=http://pypi.python.org/simple/ --trusted-host pypi.python.org  [pythonPackage]
