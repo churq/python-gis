@@ -1,2 +1,1 @@
-python shapely
-python geopandas
+documents on GDSS
