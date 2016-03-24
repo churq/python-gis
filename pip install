@@ -1,2 +1,5 @@
 pip install with no SSL verification:
 pip install --index-url=http://pypi.python.org/simple/ --trusted-host pypi.python.org  [pythonPackage]
+pip install --index-url=http://pypi.python.org/simple/ --trusted-host pypi.python.org  --upgrade pip mitmproxy
+#if "mitmproxy" missing, exception "Access is denied: 'c:\\users\\rachel~1\\appdata\\local\\temp\\pip-imfy59-uninstall
+\\python27\\scripts\\pip.exe' " will be raised
