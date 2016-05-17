@@ -1,0 +1,1 @@
+db=sqlalchemy.create_engine(r'postgresql://ipss:piA2LedR@svgds0000010np.nbndc.local:5432/ipss')
