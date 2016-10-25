@@ -1,0 +1,11 @@
+import logging
+
+# set basicConfig instantiate streamhandler
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getlogger('test')
+
+
+# this doesn't set console handler
+# nothing printed out on console
+logger = logging.getlogger('test')
+logger.setLevel(logging.DEBUG)
