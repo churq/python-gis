@@ -4,3 +4,6 @@ pip install --index-url=http://pypi.python.org/simple/ --trusted-host pypi.pytho
 #if "mitmproxy" missing, exception "Access is denied: 'c:\\users\\rachel~1\\appdata\\local\\temp\\pip-imfy59-uninstall
 \\python27\\scripts\\pip.exe' " will be raised
 pip install -r /path/to/requirements.txt -f file:///path/to/archive/
+
+# install packages by the list
+pip install -r requirements.txt 
