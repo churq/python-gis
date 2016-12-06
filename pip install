@@ -7,3 +7,7 @@ pip install -r /path/to/requirements.txt -f file:///path/to/archive/
 
 # install packages by the list
 pip install -r requirements.txt 
+
+
+############use git to generate ssh key#############
+commanad: ssh-keygen
